@@ -27,6 +27,8 @@
     --heading: "Eras Bold ITC", system-ui, "Segoe UI", Roboto, sans-serif;
     --mono: "Fira Mono", ui-monospace, Consolas, monospace;
 
+    --margin: 10px;
+
     font-family: var(--mono);
     letter-spacing: 0.18px;
     color-scheme: light dark;
@@ -50,7 +52,7 @@
     border-inline: 1px solid var(--border);
     min-height: 100svh;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 1fr auto;
     grid-template-columns: auto 1fr;
     box-sizing: border-box;
 }
