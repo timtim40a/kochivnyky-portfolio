@@ -12,7 +12,7 @@
 /*--------------------------------------Variables---------------------------------------*/
 :root {
     --text: #eeeeee;
-    --text-heading: #777777;
+    --text-heading: #373737;
     --text-highlight: #ff4d07;
     --bg: black;
     --border: #dd4c13;
@@ -27,6 +27,7 @@
     --heading: "Eras Bold ITC", system-ui, "Segoe UI", Roboto, sans-serif;
     --mono: "Fira Mono", ui-monospace, Consolas, monospace;
 
+    font-family: var(--mono);
     letter-spacing: 0.18px;
     color-scheme: light dark;
     color: var(--text);
@@ -66,9 +67,9 @@ h2 {
 }
 
 h1 {
-    font-size: 56px;
+    font-size: 72px;
     letter-spacing: -1.68px;
-    margin: 32px 0;
+    margin: 40px 0 -20px;
     @media (max-width: 1024px) {
         font-size: 36px;
         margin: 20px 0;
