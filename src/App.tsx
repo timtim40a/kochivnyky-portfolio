@@ -18,7 +18,6 @@ function App() {
                         />
                     </div>
                     <div className={styles.contentContainer}>
-                        <h1>Welcome to Kochivnyky Portfolio</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Aliquam iste eligendi similique architecto

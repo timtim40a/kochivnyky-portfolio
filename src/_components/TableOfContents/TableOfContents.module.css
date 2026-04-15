@@ -15,3 +15,8 @@
 .heading:hover {
     text-decoration: underline;
 }
+
+.active {
+    color: var(--text-highlight);
+    font-weight: 600;
+}
