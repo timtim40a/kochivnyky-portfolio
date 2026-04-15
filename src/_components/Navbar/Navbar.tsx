@@ -1,3 +1,4 @@
+import TableOfContents from "../TableOfContents/TableOfContents";
 import styles from "./Navbar.module.css";
 
 function Navbar() {
@@ -9,11 +10,7 @@ function Navbar() {
                     alt="Kochivnyky Logo"
                     className={styles.logo}
                 />
-                <div className={styles.contents}>
-                    <div className={styles.chapter}>Chapter 1</div>
-                    <div className={styles.chapter}>Chapter 2</div>
-                    <div className={styles.chapter}>Chapter 3</div>
-                </div>
+                <TableOfContents />
             </nav>
         </>
     );

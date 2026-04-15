@@ -7,8 +7,8 @@ function App() {
         <>
             <div className={styles.bodyWrapper}>
                 <div className={styles.sidebarWrapper}>
-                <Navbar />
-            </div>
+                    <Navbar />
+                </div>
                 <main className={styles.main}>
                     <div className={styles.imageContainer}>
                         <img
@@ -35,48 +35,51 @@ function App() {
                             pariatur distinctio culpa, fuga veniam? Temporibus
                             assumenda mollitia voluptatem architecto ducimus,
                             dignissimos deserunt. Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Veniam mollitia,
-                            temporibus inventore fugiat explicabo consectetur
-                            repellat quam quisquam debitis fugit accusamus
-                            nesciunt eaque quibusdam perferendis eveniet earum
-                            ab nihil. Laboriosam. Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Velit quod deleniti
-                            veritatis soluta. Cumque, veritatis nesciunt
-                            expedita, voluptas tempora tenetur odit possimus
-                            rerum, fuga ab optio vero dicta odio pariatur. Lorem
-                            ipsum dolor sit amet consectetur adipisicing elit.
-                            Nesciunt dolor commodi laborum porro doloremque
-                            quisquam non, eveniet nemo numquam officiis,
-                            sapiente beatae veritatis expedita tempore quo
-                            tenetur! Ab, eaque qui. Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Aliquam iste eligendi
-                            similique architecto ducimus distinctio ab magni
-                            nemo. Necessitatibus neque quas labore consequuntur
-                            nemo deleniti repellendus quasi alias illum tempore?
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Aliquam iste eligendi similique architecto
-                            ducimus distinctio ab magni nemo. Necessitatibus
-                            neque quas labore consequuntur nemo deleniti
-                            repellendus quasi alias illum tempore? Lorem ipsum
-                            dolor, sit amet consectetur adipisicing elit.
-                            Molestias sunt rerum illo necessitatibus, mollitia
-                            inventore nemo ullam pariatur distinctio culpa, fuga
-                            veniam? Temporibus assumenda mollitia voluptatem
-                            architecto ducimus, dignissimos deserunt. Lorem
-                            ipsum dolor sit amet consectetur adipisicing elit.
-                            Veniam mollitia, temporibus inventore fugiat
-                            explicabo consectetur repellat quam quisquam debitis
-                            fugit accusamus nesciunt eaque quibusdam perferendis
-                            eveniet earum ab nihil. Laboriosam. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Velit
-                            quod deleniti veritatis soluta. Cumque, veritatis
-                            nesciunt expedita, voluptas tempora tenetur odit
-                            possimus rerum, fuga ab optio vero dicta odio
-                            pariatur. Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit. Nesciunt dolor commodi laborum
-                            porro doloremque quisquam non, eveniet nemo numquam
-                            officiis, sapiente beatae veritatis expedita tempore
-                            quo tenetur! Ab, eaque qui.
+                        </p>
+                        <h2>Our Mission</h2>
+                        <p>
+                            Our mission is to create innovative solutions that
+                            empower individuals and businesses to achieve their
+                            goals. We strive to deliver high-quality products
+                            and services that exceed our clients' expectations.
+                        </p>
+                        <h2>Our Services</h2>
+                        <p>
+                            We offer a wide range of services, including web
+                            development, mobile app development, digital
+                            marketing, and graphic design. Our team of experts
+                            is dedicated to providing customized solutions that
+                            meet the unique needs of each client.
+                        </p>
+                        <h3>Performances</h3>
+                        <p>
+                            We have performed at various events and venues,
+                            showcasing our talents and creativity. Our
+                            performances are known for their energy, passion,
+                            and ability to captivate audiences of all ages.
+                        </p>
+                        <h3>Workshops</h3>
+                        <p>
+                            We also offer workshops and training sessions to
+                            help individuals and organizations develop their
+                            skills and knowledge in various areas. Our workshops
+                            are designed to be interactive, engaging, and
+                            informative, providing participants with practical
+                            tools and insights they can apply in their personal
+                            and professional lives.
+                        </p>
+                        <h2>Our Team</h2>
+                        <p>
+                            Our team consists of highly skilled professionals
+                            with years of experience in their respective fields.
+                            We are committed to delivering exceptional results
+                            and providing outstanding customer service.
+                        </p>
+                        <h2>Contact Us</h2>
+                        <p>
+                            If you have any questions or would like to learn
+                            more about our services, please don't hesitate to
+                            contact us. You can reach us at.
                         </p>
                     </div>
                 </main>
