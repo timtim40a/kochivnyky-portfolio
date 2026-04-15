@@ -125,7 +125,6 @@ function App() {
                             assumenda mollitia voluptatem architecto ducimus,
                             dignissimos deserunt. Lorem ipsum dolor sit amet
                         </p>
-                        <h2>Contact Us</h2>
                         <h2>Video materials</h2>
                         <div>
                         <iframe width="640" height="375" src="https://www.youtube.com/embed/eViCPa8kpTw?si=NpwS773xr02sFBfJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
@@ -136,6 +135,7 @@ function App() {
                         <iframe width="315" height="560" src="https://www.youtube.com/embed/5yWGWvTFLxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
                         
                         </div>
+                        <h2>Contact Us</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Aliquam iste eligendi similique architecto
