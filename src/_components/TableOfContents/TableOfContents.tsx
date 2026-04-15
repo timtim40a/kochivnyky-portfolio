@@ -16,7 +16,7 @@ function TableOfContents() {
                 <li className={styles.mainList}>
                     {headings.map((heading) => (
                         <a
-                            className={`${styles.heading} ${activeId === heading.id ? styles.active : ""}`}
+                            className={`${styles.heading} ${styles[`level${heading.level}`]} ${activeId === heading.id ? styles.active : ""}`}
                             key={heading.id}
                             href={`#${heading.id}`}
                         >

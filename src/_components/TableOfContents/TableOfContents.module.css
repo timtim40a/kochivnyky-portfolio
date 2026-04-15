@@ -20,3 +20,15 @@
     color: var(--text-highlight);
     font-weight: 600;
 }
+
+.level2 {
+    margin-left: 0;
+}
+
+.level3 {
+    margin-left: calc(var(--margin) * 4);
+}
+
+.level4 {
+    margin-left: calc(var(--margin) * 8);
+}
