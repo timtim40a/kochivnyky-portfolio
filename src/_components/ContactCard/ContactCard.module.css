@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: var(--margin);
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--text);
+    background-color: var(--accent-bg);
+}
+
+.avatar {
+    max-width: 32px;
+    aspect-ratio: 1 / 1;
+}
+
+.name {
+    padding: var(--margin);
+}

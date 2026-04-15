@@ -3,7 +3,20 @@
     grid-row: 2;
     background-color: var(--div-bg);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: var(--margin);
-    padding: var(--margin);
+    padding: calc(var(--margin) * 2);
+    gap: calc(var(--margin) * 2);
+    align-items: last baseline;
+    justify-content: center;
+}
+
+.contactContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1fr);
+}
+
+.contactTitle {
+    grid-column: span 2;
 }
