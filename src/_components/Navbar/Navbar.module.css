@@ -1,7 +1,11 @@
 .container {
+    grid-row: 1;
+    position: sticky;
+    top: 10px;
     display: grid;
     grid-template-rows: auto 1fr;
     align-items: left;
+    height: calc(100vh - var(--margin) * 4);
     padding: 0 20px;
     background-color: var(--div-bg);
     border: 1px solid var(--border);
