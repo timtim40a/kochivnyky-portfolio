@@ -1,3 +1,14 @@
+.bodyWrapper {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: auto 1fr;
+}
+
+.sidebarWrapper {
+    grid-row: 1 / 2;
+    align-self: stretch;
+}
+
 .main {
     grid-column: 2;
     display: grid;
