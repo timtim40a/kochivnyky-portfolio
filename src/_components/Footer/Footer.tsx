@@ -13,7 +13,10 @@ function Footer() {
                     >
                         Our Instagram
                     </a>
-                    <p>&copy; 2023-2026 Kochivnyky. All rights reserved.</p>
+                    <p>
+                        &copy; 2023-2026 Kochivnyky.
+                        <br /> All rights reserved.
+                    </p>
                 </div>
                 <div className={styles.contactContainer}>
                     <span className={styles.contactTitle}>Contact us!</span>
@@ -37,7 +40,11 @@ function Footer() {
                         name="Olena Kompletova"
                         link=""
                     />
-
+                    <ContactCard
+                        imageSrc="/images/lena_polovn.png"
+                        name="Olena Mordyk"
+                        link=""
+                    />
                     <ContactCard
                         imageSrc="/images/tim.png"
                         name="Tymur Soroka"

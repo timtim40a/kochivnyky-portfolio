@@ -16,4 +16,5 @@
 
 .name {
     padding: var(--margin);
+    font-size: smaller;
 }

@@ -13,10 +13,10 @@
 
 .contactContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(1fr);
 }
 
 .contactTitle {
-    grid-column: span 2;
+    grid-column: span 3;
 }
