@@ -35,3 +35,14 @@
     grid-row: 2;
     padding: 20px;
 }
+
+.videoContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1fr);
+    gap: calc(var(--margin) * 2);
+}
+
+.horizontalVideo {
+    grid-column: span 3;
+}

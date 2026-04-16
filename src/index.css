@@ -14,6 +14,7 @@
     --text: #eeeeee;
     --text-heading: #373737;
     --text-highlight: #ff4d07;
+    --text-accent: rgb(255, 208, 0);
     --bg: black;
     --border: #dd4c13;
     --div-bg: #181818;
@@ -88,4 +89,15 @@ h2 {
 p {
     margin: 0 0 8px;
     line-height: 26px;
+}
+
+a {
+    color: var(--text-highlight);
+    font-weight: 300;
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    color: var(--text-accent);
+    font-weight: 400;
 }
