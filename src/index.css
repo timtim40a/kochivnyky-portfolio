@@ -42,7 +42,7 @@
     -moz-osx-font-smoothing: grayscale;
 
     @media (max-width: 1024px) {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -55,6 +55,20 @@
     border: 1px solid var(--div-bg);
     min-height: 100svh;
     box-sizing: border-box;
+}
+
+@media (max-width: 968px) {
+    #root {
+        width: 100vw;
+        padding: 0;
+        border: none;
+        margin: 10vh 0 0;
+    }
+
+    p {
+        /* font-size: small; */
+        line-height: 20px;
+    }
 }
 
 body {
