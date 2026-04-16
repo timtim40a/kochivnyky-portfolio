@@ -410,7 +410,7 @@ function App() {
                                 she is involved in organization and
                                 participation in cultural projects in Germany
                                 and Ukraine, including exhibitions and public
-                                programs. Olena’s main work is at Garage Nord in
+                                programs. Olena's main work is at Garage Nord in
                                 Hannover; she is also part of the activist
                                 collective "osereddia.” Her experience and
                                 interests include translation, editing,
@@ -448,9 +448,8 @@ function App() {
                                 art, actively engaged in educational and social
                                 initiatives, including work with teenagers,
                                 internally displaced persons, and LGBTQ+
-                                communities. As an artist, (бере участь у
-                                колективних та індивідуальних мистецьких
-                                проєктах) collaborates with publishers and
+                                communities. As an artist, organizes various art
+                                projects, collaborates with publishers and
                                 participates in exhibition projects.
                             </p>
                             <p>
