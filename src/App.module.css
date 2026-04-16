@@ -43,6 +43,32 @@
     gap: calc(var(--margin) * 2);
 }
 
+.videoContainerMobile {
+    display: none;
+}
+
 .horizontalVideo {
     grid-column: span 3;
+}
+
+@media (max-width: 768px) {
+    .videoContainer {
+        display: none;
+    }
+
+    .videoContainerMobile {
+        display: flex;
+        flex-direction: column;
+        gap: calc(var(--margin) * 2);
+        align-items: center;
+        margin: calc(var(--margin) * 2) 0;
+    }
+
+    .contentContainer {
+        padding: 5px;
+    }
+
+    .main {
+        border: none;
+    }
 }

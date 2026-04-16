@@ -553,6 +553,71 @@ function App() {
                                 className={styles.verticalVideo}
                             ></iframe>
                         </div>
+                        <div className={styles.videoContainerMobile}>
+                            <iframe
+                                width="350"
+                                height="200"
+                                src="https://www.youtube.com/embed/eViCPa8kpTw?si=NpwS773xr02sFBfJ"
+                                title="YouTube video player"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen={true}
+                                className={styles.horizontalVideo}
+                            ></iframe>
+                            <iframe
+                                width="350"
+                                height="200"
+                                src="https://www.youtube.com/embed/ONUiUO8noJE?si=1sXEmOYQ-IGwMJlA"
+                                title="YouTube video player"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen={true}
+                                className={styles.horizontalVideo}
+                            ></iframe>
+                            <iframe
+                                width="350"
+                                height="200"
+                                src="https://www.youtube.com/embed/FbpdRTpYjm4?si=FaV156eg1zojyqLo"
+                                title="YouTube video player"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen={true}
+                                className={styles.horizontalVideo}
+                            ></iframe>
+                            <iframe
+                                width="350"
+                                height="580"
+                                src="https://www.youtube.com/embed/6nSGKyHS4Ns"
+                                title="YouTube video player"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen={true}
+                                className={styles.verticalVideo}
+                            ></iframe>
+                            <iframe
+                                width="350"
+                                height="580"
+                                src="https://www.youtube.com/embed/1eQenpx-464"
+                                title="YouTube video player"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen={true}
+                                className={styles.verticalVideo}
+                            ></iframe>
+                            <iframe
+                                width="350"
+                                height="580"
+                                src="https://www.youtube.com/embed/5yWGWvTFLxs"
+                                title="YouTube video player"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowFullScreen={true}
+                                className={styles.verticalVideo}
+                            ></iframe>
+                        </div>
                         <h2>Contact Us</h2>
                         <p>
                             <a
