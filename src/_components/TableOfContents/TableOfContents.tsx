@@ -2,7 +2,7 @@ import { useActiveHeading } from "../../_hooks/useActiveHeading";
 import { useTocHeadings } from "../../_hooks/useTokHeadings";
 import styles from "./TableOfContents.module.css";
 
-function TableOfContents() {
+function TableOfContents({ onClickFunction = () => {} }) {
     const headings = useTocHeadings();
     const activeId = useActiveHeading();
 
@@ -19,6 +19,7 @@ function TableOfContents() {
                             className={`${styles.heading} ${styles[`level${heading.level}`]} ${activeId === heading.id ? styles.active : ""}`}
                             key={heading.id}
                             href={`#${heading.id}`}
+                            onClick={onClickFunction}
                         >
                             {heading.title}
                         </a>
