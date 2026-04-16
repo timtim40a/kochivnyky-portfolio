@@ -61,6 +61,7 @@
         flex-direction: column;
         gap: calc(var(--margin) * 2);
         align-items: center;
+        margin: calc(var(--margin) * 2) 0;
     }
 
     .contentContainer {

@@ -20,3 +20,20 @@
 .contactTitle {
     grid-column: span 3;
 }
+
+@media (max-width: 968px) {
+    .container {
+        margin: 0;
+    }
+
+    .contactContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 768px) {
+    .contactContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
