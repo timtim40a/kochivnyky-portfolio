@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 200px;
+    padding-right: 0.5rem;
+    margin-right: 0.5rem;
+    float: left;
+    font-style: italic;
+    color: #29627e;
+}
+
+.containerRight {
+    float: right;
+    padding-right: 0;
+    padding-left: 0.5rem;
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+.caption {
+    font-size: smaller;
+    text-align: center;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .container,
+    .containerRight {
+        width: 40%;
+        max-width: 150px;
+    }
+
+    .caption {
+        margin-top: 5px;
+    }
+}
