@@ -1,3 +1,4 @@
+import AsidePhoto from "./_components/AsidePhoto/AsidePhoto";
 import Footer from "./_components/Footer/Footer";
 import Navbar from "./_components/Navbar/Navbar";
 import styles from "./App.module.css";
@@ -120,242 +121,290 @@ function App() {
                         <p>Here will be our mission</p>
                         <h2>Our Services</h2>
                         <h3>Performances</h3>
-                        <div>
-                            <p>
-                                <b>29.05.2022</b> — Playback Theatre Performance
-                                (Hanover) - the first gathering of our team,
-                                which consisted of actors from different
-                                Ukrainian theatres. Held at the opening ceremony
-                                of a playback studio for adults as a part of the{" "}
-                                <a
-                                    href="https://www.facebook.com/profile.php?id=61566068937815"
-                                    target="_blank"
-                                >
-                                    Haus der Mehrsprachigkeit project
-                                </a>
-                                . Hanover, Germany
-                            </p>
-                            <p>
-                                <b>10.07.2022</b> — Playback Theatre Performance
-                                (Munich) at a{" "}
-                                <a
-                                    href="https://www.380art.com/"
-                                    target="_blank"
-                                >
-                                    +380ART
-                                </a>{" "}
-                                event - a charity festival of Ukrainian culture
-                                and exhibition of Ukrainian art. Munich, Germany
-                            </p>
-                            <p>
-                                <b>06.08 - 11.08.2022</b> —{" "}
-                                <a
-                                    href="https://www.instagram.com/p/Cgbf9LbNkwo/"
-                                    target="_blank"
-                                >
-                                    Red Thread Festival
-                                </a>
-                                . Organized by the Hanover Playback Theatre
-                                team. With the help of{" "}
-                                <a
-                                    href="https://www.instagram.com/wasmitherz/"
-                                    target="_blank"
-                                >
-                                    Wasmitherz
-                                </a>{" "}
-                                and{" "}
-                                <a
-                                    href="https://www.facebook.com/profile.php?id=61566068937815"
-                                    target="_blank"
-                                >
-                                    Haus der Mehrsprachigkeit
-                                </a>
-                                , there were two performances, five workshops, a
-                                city tour, and a dance-walking performance.
-                                Hanover, Germany
-                            </p>
-                            <p>
-                                <b>23.08.2022</b> — The closing Playback Theatre
-                                performance of the Haus der Mehrsprachigkeit
-                                project. Hanover, Germany
-                            </p>
-                            <p>
-                                <b>09.09 - 11.09.2022</b> —{" "}
-                                <a
-                                    href="https://www.instagram.com/p/CiDReZlNND6/"
-                                    target="_blank"
-                                >
-                                    Playback Theatre Festival
-                                </a>
-                                . Performed by the Leipzig playback team. Two
-                                performances, five workshops, and a musical jam
-                                took place on{" "}
-                                <a href="https://mdbk.de/en/" target="_blank">
-                                    MDBK
-                                </a>{" "}
-                                and{" "}
-                                <a href="https://gfzk.de/en/" target="_blank">
-                                    Gfzk
-                                </a>{" "}
-                                platforms. Leipzig, Germany
-                            </p>
-                            <p>
-                                <b>11.12.2022</b> —{" "}
-                                <a
-                                    href="https://www.instagram.com/kochivnyky_playback/p/Cl8bbnct5G4/"
-                                    target="_blank"
-                                >
-                                    Playback performance
-                                </a>{" "}
-                                dedicated to Wasmitherz’s anniversary. Hanover,
-                                Germany
-                            </p>
-                            <p>
-                                <b>11.03.2023</b> — Playback performance “
-                                <a
-                                    href="https://www.instagram.com/svoii_ua/p/Cpa1J7-M1WJ/"
-                                    target="_blank"
-                                >
-                                    Beyond the Horizon
-                                </a>
-                                ” («За обрієм»); stories on hope and uncertainty
-                                of immigrants. Hanover, Germany
-                            </p>
-                            <p>
-                                <b>07.05.2023</b> — Playback performance “
-                                <a
-                                    href="https://www.instagram.com/p/Ck_EpQ5NSse/"
-                                    target="_blank"
-                                >
-                                    Customs and rights to every city
-                                </a>
-                                ” («Кожному місту звичай і права»). Hanover,
-                                Germany
-                            </p>
-                            <p>
-                                <b>07.05.2023</b> — Playback performance “
-                                <a
-                                    href="https://www.instagram.com/p/CrnOm1wNm9y/"
-                                    target="_blank"
-                                >
-                                    There Is Contact!
-                                </a>
-                                ” («Є контакт!»); exploring connection and
-                                isolation. Hanover, Germany
-                            </p>
-                            <p>
-                                <b>24.06.2023</b> — Playback performance “
-                                <a
-                                    href="https://www.instagram.com/p/Ctj03yAtnVy/"
-                                    target="_blank"
-                                >
-                                    Checkpoint
-                                </a>
-                                ” («Точка збереження»); reflecting on pause and
-                                uncertainty. Hanover, Germany
-                            </p>
-                            <p>
-                                <b>02.07.2023</b> — Playback performance “
-                                <a
-                                    href="https://www.instagram.com/p/Ct_s92iNrUM/"
-                                    target="_blank"
-                                >
-                                    By the Way
-                                </a>
-                                ”; exploring journeys and transformation.
-                                Leipzig, Germany
-                            </p>
-                            <p>
-                                <b>05.08.2023</b> — Performative research “
-                                <a
-                                    href="https://www.instagram.com/p/CvgyIvgNgKz/"
-                                    target="_blank"
-                                >
-                                    The Suitcase
-                                </a>
-                                ” within “Sirnyky”; exploring memory and
-                                migration,{" "}
-                                <a
-                                    href="https://www.artcamp-tangente.com/"
-                                    target="_blank"
-                                >
-                                    Kunstcamp Vasenthien
-                                </a>
-                                , Germany
-                            </p>
-                            <p>
-                                <b>25.08.2023</b> — Playback performance “
-                                <a
-                                    href="https://www.instagram.com/p/CwN3U1TNVMm/"
-                                    target="_blank"
-                                >
-                                    Harvest
-                                </a>
-                                ” («Врожай»); reflection on transformation.
-                                Hanover, Germany
-                            </p>
-                            <p>
-                                <b>04.02.2024</b> — Playback performance “
-                                <a
-                                    href="https://www.instagram.com/p/C2pf46KNGxF/"
-                                    target="_blank"
-                                >
-                                    Crossroads
-                                </a>
-                                ” («Перехрестя»); moments of choice and
-                                transition. Kraków, Poland
-                            </p>
-                            <p>
-                                <b>12.05.2024</b> — Playback performance “
-                                <a
-                                    href="https://www.instagram.com/p/C6QyT6WNcj8/"
-                                    target="_blank"
-                                >
-                                    Big Water
-                                </a>
-                                ” («Велика вода»); working with loss and
-                                instability. Kraków, Poland
-                            </p>
-                            <p>
-                                <b>30.06.2024</b> — Online playback performance
-                                “
-                                <a
-                                    href="https://www.instagram.com/p/C8v3Yd8tKLB/"
-                                    target="_blank"
-                                >
-                                    Places
-                                </a>
-                                ” («Місця») as part of “Kharkiv Sea” festival.
-                                Online (Zoom)
-                            </p>
-                            <p>
-                                <b>09.01.2025</b> —{" "}
-                                <a
-                                    href="https://www.instagram.com/p/DES3Jdxtepe/"
-                                    target="_blank"
-                                >
-                                    Multidisciplinary project “…”
-                                </a>
-                                ; combining performance and{" "}
-                                <a
-                                    href="https://timtim40a.github.io/kochivnyky/"
-                                    target="_blank"
-                                >
-                                    multimedia
-                                </a>
-                                . Kraków, Poland
-                            </p>
-                            <p>
-                                <b>10.09.2025</b> — Playback performance “
-                                <a
-                                    href="https://www.instagram.com/p/DOGyvwxjC6D/"
-                                    target="_blank"
-                                >
-                                    Rooms
-                                </a>
-                                ” («Кімнати»); exploring space and shared
-                                presence. Kraków, Poland
-                            </p>
+                        <div className={styles.performanceContainer}>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>29.05.2022</b> — Playback Theatre
+                                    Performance (Hanover) - the first gathering
+                                    of our team, which consisted of actors from
+                                    different Ukrainian theatres. Held at the
+                                    opening ceremony of a playback studio for
+                                    adults as a part of the{" "}
+                                    <a
+                                        href="https://www.facebook.com/profile.php?id=61566068937815"
+                                        target="_blank"
+                                    >
+                                        Haus der Mehrsprachigkeit project
+                                    </a>
+                                    . Hanover, Germany
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>10.07.2022</b> — Playback Theatre
+                                    Performance (Munich) at a{" "}
+                                    <a
+                                        href="https://www.380art.com/"
+                                        target="_blank"
+                                    >
+                                        +380ART
+                                    </a>{" "}
+                                    event - a charity festival of Ukrainian
+                                    culture and exhibition of Ukrainian art.
+                                    Munich, Germany
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>06.08 - 11.08.2022</b> —{" "}
+                                    <a
+                                        href="https://www.instagram.com/p/Cgbf9LbNkwo/"
+                                        target="_blank"
+                                    >
+                                        Red Thread Festival
+                                    </a>
+                                    . Organized by the Hanover Playback Theatre
+                                    team. With the help of{" "}
+                                    <a
+                                        href="https://www.instagram.com/wasmitherz/"
+                                        target="_blank"
+                                    >
+                                        Wasmitherz
+                                    </a>{" "}
+                                    and{" "}
+                                    <a
+                                        href="https://www.facebook.com/profile.php?id=61566068937815"
+                                        target="_blank"
+                                    >
+                                        Haus der Mehrsprachigkeit
+                                    </a>
+                                    , there were two performances, five
+                                    workshops, a city tour, and a dance-walking
+                                    performance. Hanover, Germany
+                                    <AsidePhoto
+                                        src="/images/wasmiterz1.jpg"
+                                        alt="Red Thread Festival"
+                                    />
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>23.08.2022</b> — The closing Playback
+                                    Theatre performance of the Haus der
+                                    Mehrsprachigkeit project. Hanover, Germany
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>09.09 - 11.09.2022</b> —{" "}
+                                    <a
+                                        href="https://www.instagram.com/p/CiDReZlNND6/"
+                                        target="_blank"
+                                    >
+                                        Playback Theatre Festival
+                                    </a>
+                                    . Performed by the Leipzig playback team.
+                                    Two performances, five workshops, and a
+                                    musical jam took place on{" "}
+                                    <a
+                                        href="https://mdbk.de/en/"
+                                        target="_blank"
+                                    >
+                                        MDBK
+                                    </a>{" "}
+                                    and{" "}
+                                    <a
+                                        href="https://gfzk.de/en/"
+                                        target="_blank"
+                                    >
+                                        Gfzk
+                                    </a>{" "}
+                                    platforms. Leipzig, Germany
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>11.12.2022</b> —{" "}
+                                    <a
+                                        href="https://www.instagram.com/kochivnyky_playback/p/Cl8bbnct5G4/"
+                                        target="_blank"
+                                    >
+                                        Playback performance
+                                    </a>{" "}
+                                    dedicated to Wasmitherz’s anniversary.
+                                    Hanover, Germany
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>11.03.2023</b> — Playback performance “
+                                    <a
+                                        href="https://www.instagram.com/svoii_ua/p/Cpa1J7-M1WJ/"
+                                        target="_blank"
+                                    >
+                                        Beyond the Horizon
+                                    </a>
+                                    ” («За обрієм»); stories on hope and
+                                    uncertainty of immigrants. Hanover, Germany
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>07.05.2023</b> — Playback performance “
+                                    <a
+                                        href="https://www.instagram.com/p/Ck_EpQ5NSse/"
+                                        target="_blank"
+                                    >
+                                        Customs and rights to every city
+                                    </a>
+                                    ” («Кожному місту звичай і права»). Hanover,
+                                    Germany
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>07.05.2023</b> — Playback performance “
+                                    <a
+                                        href="https://www.instagram.com/p/CrnOm1wNm9y/"
+                                        target="_blank"
+                                    >
+                                        There Is Contact!
+                                    </a>
+                                    ” («Є контакт!»); exploring connection and
+                                    isolation. Hanover, Germany
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>24.06.2023</b> — Playback performance “
+                                    <a
+                                        href="https://www.instagram.com/p/Ctj03yAtnVy/"
+                                        target="_blank"
+                                    >
+                                        Checkpoint
+                                    </a>
+                                    ” («Точка збереження»); reflecting on pause
+                                    and uncertainty. Hanover, Germany
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>02.07.2023</b> — Playback performance “
+                                    <a
+                                        href="https://www.instagram.com/p/Ct_s92iNrUM/"
+                                        target="_blank"
+                                    >
+                                        By the Way
+                                    </a>
+                                    ”; exploring journeys and transformation.
+                                    Leipzig, Germany
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>05.08.2023</b> — Performative research “
+                                    <a
+                                        href="https://www.instagram.com/p/CvgyIvgNgKz/"
+                                        target="_blank"
+                                    >
+                                        The Suitcase
+                                    </a>
+                                    ” within “Sirnyky”; exploring memory and
+                                    migration,{" "}
+                                    <a
+                                        href="https://www.artcamp-tangente.com/"
+                                        target="_blank"
+                                    >
+                                        Kunstcamp Vasenthien
+                                    </a>
+                                    , Germany
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>25.08.2023</b> — Playback performance “
+                                    <a
+                                        href="https://www.instagram.com/p/CwN3U1TNVMm/"
+                                        target="_blank"
+                                    >
+                                        Harvest
+                                    </a>
+                                    ” («Врожай»); reflection on transformation.
+                                    Hanover, Germany
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>04.02.2024</b> — Playback performance “
+                                    <a
+                                        href="https://www.instagram.com/p/C2pf46KNGxF/"
+                                        target="_blank"
+                                    >
+                                        Crossroads
+                                    </a>
+                                    ” («Перехрестя»); moments of choice and
+                                    transition. Kraków, Poland
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>12.05.2024</b> — Playback performance “
+                                    <a
+                                        href="https://www.instagram.com/p/C6QyT6WNcj8/"
+                                        target="_blank"
+                                    >
+                                        Big Water
+                                    </a>
+                                    ” («Велика вода»); working with loss and
+                                    instability. Kraków, Poland
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>30.06.2024</b> — Online playback
+                                    performance “
+                                    <a
+                                        href="https://www.instagram.com/p/C8v3Yd8tKLB/"
+                                        target="_blank"
+                                    >
+                                        Places
+                                    </a>
+                                    ” («Місця») as part of “Kharkiv Sea”
+                                    festival. Online (Zoom)
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>09.01.2025</b> —{" "}
+                                    <a
+                                        href="https://www.instagram.com/p/DES3Jdxtepe/"
+                                        target="_blank"
+                                    >
+                                        Multidisciplinary project “…”
+                                    </a>
+                                    ; combining performance and{" "}
+                                    <a
+                                        href="https://timtim40a.github.io/kochivnyky/"
+                                        target="_blank"
+                                    >
+                                        multimedia
+                                    </a>
+                                    . Kraków, Poland
+                                </p>
+                            </div>
+                            <div className={styles.performanceItem}>
+                                <p>
+                                    <b>10.09.2025</b> — Playback performance “
+                                    <a
+                                        href="https://www.instagram.com/p/DOGyvwxjC6D/"
+                                        target="_blank"
+                                    >
+                                        Rooms
+                                    </a>
+                                    ” («Кімнати»); exploring space and shared
+                                    presence. Kraków, Poland
+                                </p>
+                            </div>
                         </div>
                         <h3>Workshops</h3>
                         <p>Here will be some workshops</p>
