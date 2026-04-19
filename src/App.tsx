@@ -156,6 +156,10 @@ function App() {
                             </div>
                             <div className={styles.performanceItem}>
                                 <p>
+                                    <AsidePhoto
+                                        src="/images/wasmiterz1.jpg"
+                                        alt="Red Thread Festival"
+                                    />
                                     <b>06.08 - 11.08.2022</b> —{" "}
                                     <a
                                         href="https://www.instagram.com/p/Cgbf9LbNkwo/"
@@ -181,10 +185,6 @@ function App() {
                                     , there were two performances, five
                                     workshops, a city tour, and a dance-walking
                                     performance. Hanover, Germany
-                                    <AsidePhoto
-                                        src="/images/wasmiterz1.jpg"
-                                        alt="Red Thread Festival"
-                                    />
                                 </p>
                             </div>
                             <div className={styles.performanceItem}>
@@ -263,6 +263,11 @@ function App() {
                             </div>
                             <div className={styles.performanceItem}>
                                 <p>
+                                    <AsidePhoto
+                                        src="/images/spilka1.jpg"
+                                        alt="There Is Contact! performance"
+                                        align="right"
+                                    />
                                     <b>07.05.2023</b> — Playback performance “
                                     <a
                                         href="https://www.instagram.com/p/CrnOm1wNm9y/"
@@ -318,6 +323,11 @@ function App() {
                                         Kunstcamp Vasenthien
                                     </a>
                                     , Germany
+                                    <AsidePhoto
+                                        src="/images/sirjnyky.JPG"
+                                        alt="The Suitcase performance"
+                                        align="left"
+                                    />
                                 </p>
                             </div>
                             <div className={styles.performanceItem}>
@@ -375,6 +385,11 @@ function App() {
                             </div>
                             <div className={styles.performanceItem}>
                                 <p>
+                                    <AsidePhoto
+                                        src="/images/ellipsis3.jpg"
+                                        alt={`Performance "..."`}
+                                        align="right"
+                                    />
                                     <b>09.01.2025</b> —{" "}
                                     <a
                                         href="https://www.instagram.com/p/DES3Jdxtepe/"
@@ -405,6 +420,18 @@ function App() {
                                     presence. Kraków, Poland
                                 </p>
                             </div>
+                            {/* <div className={styles.performanceItem}>
+                                <AsidePhoto
+                                    src="/images/perekhrestia.jpg"
+                                    alt="The Crossroads performance"
+                                    align="left"
+                                />
+                                <AsidePhoto
+                                    src="/images/kimnaty.jpg"
+                                    alt="The Rooms performance"
+                                    align="left"
+                                />
+                            </div> */}
                         </div>
                         <h3>Workshops</h3>
                         <p>Here will be some workshops</p>
@@ -440,6 +467,11 @@ function App() {
                                 and certification programs in Kraków.
                             </p>
                             <p>
+                                <AsidePhoto
+                                    src="/images/ellipsis2.jpg"
+                                    alt={`Alona during the "..." performance`}
+                                    align="right"
+                                />
                                 <b>Alona Altunina</b> — playback actress,
                                 performer and musician from Kharkiv. Holds a BA
                                 in Acting Art of Puppet Theatre (Kharkiv I.P.
@@ -469,6 +501,11 @@ function App() {
                                 organizational processes.
                             </p>
                             <p>
+                                <AsidePhoto
+                                    src="/images/general1.jpg"
+                                    alt={`Tymur and the theatre's mascot`}
+                                    align="left"
+                                />
                                 <b>Tymur Soroka</b> — playback actor, musician,
                                 visual artist, and programmer from Kharkiv.
                                 Member of “More Nocturne” and “Kochivnyky”

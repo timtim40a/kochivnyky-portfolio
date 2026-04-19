@@ -41,6 +41,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(1fr);
     gap: calc(var(--margin) * 2);
+    margin-bottom: calc(var(--margin) * 2);
 }
 
 .videoContainerMobile {

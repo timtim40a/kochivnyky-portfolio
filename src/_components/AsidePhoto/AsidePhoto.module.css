@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    max-width: 260px;
+    max-width: 200px;
     padding-right: 0.5rem;
     margin-right: 0.5rem;
     float: left;
@@ -10,7 +10,7 @@
     color: #29627e;
 }
 
-.container:nth-child(even) {
+.containerRight {
     float: right;
     padding-right: 0;
     padding-left: 0.5rem;
