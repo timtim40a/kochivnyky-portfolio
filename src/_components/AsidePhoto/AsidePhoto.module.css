@@ -25,6 +25,19 @@
 
 .photo {
     width: 100%;
-    height: 100%;
+    height: auto;
+    min-width: 0;
     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .container,
+    .containerRight {
+        width: 40%;
+        max-width: 150px;
+    }
+
+    .caption {
+        margin-top: 5px;
+    }
 }
