@@ -33,7 +33,7 @@ function Footer() {
                     <ContactCard
                         imageSrc="/images/deniza.png"
                         name="Deniza Glezina"
-                        link=""
+                        link="https://docs.google.com/document/d/18I7Ms2CCjQj8jGTFm3EXYJbLotERP0jsI4UhAk6HCsM/edit?usp=drivesdk"
                     />
                     <ContactCard
                         imageSrc="/images/lena_komp.png"
@@ -48,7 +48,7 @@ function Footer() {
                     <ContactCard
                         imageSrc="/images/tim.png"
                         name="Tymur Soroka"
-                        link="https://www.instagram.com/rim.mur/"
+                        link="https://www.timtimsays.art/"
                     />
                     <ContactCard
                         imageSrc="/images/vika.png"
