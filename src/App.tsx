@@ -30,6 +30,9 @@ function App() {
                             helping them reflect on their experiences,
                             narrativize their losses, challenges and strengths,
                             and be together as a community.
+                            Our team consists of 9 experienced playback practitioners, 
+                            each of whom has been performing in various Ukrainian 
+                            playback theatres since 2018.
                         </p>
                         <hr />
                         <p>
@@ -117,9 +120,9 @@ function App() {
                                 Kunstcamp Vasenthien
                             </a>
                         </p>
-                        <h2>Our Mission</h2>
-                        <p>Here will be our mission</p>
-                        <h2>Our Services</h2>
+                        {/* <h2>Our Mission</h2>
+                        <p>Here will be our mission</p> */}
+                        <h2>What do we do?</h2>
                         <h3>Performances</h3>
                         <div className={styles.performanceContainer}>
                             <div className={styles.performanceItem}>
@@ -434,7 +437,10 @@ function App() {
                             </div> */}
                         </div>
                         <h3>Workshops</h3>
-                        <p>Here will be some workshops</p>
+                        <p>We regularly conduct closed circle online workshops for metaphor building and storytelling.
+                            We also have organized and participated in workshops for Ukrainian communities in Poland, 
+                            Germany and UK throughout 2022-2025.
+                        </p>
                         <h2>Our Team</h2>
                         <div>
                             <p>
