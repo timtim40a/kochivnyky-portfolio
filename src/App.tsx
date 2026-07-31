@@ -117,8 +117,6 @@ function App() {
                                 Kunstcamp Vasenthien
                             </a>
                         </p>
-                        <h2>Our Mission</h2>
-                        <p>Here will be our mission</p>
                         <h2>Our Services</h2>
                         <h3>Performances</h3>
                         <div className={styles.performanceContainer}>
@@ -433,20 +431,16 @@ function App() {
                                 />
                             </div> */}
                         </div>
-                        <h3>Workshops</h3>
-                        <p>Here will be some workshops</p>
                         <h2>Our Team</h2>
                         <div>
                             <p>
                                 <b>Vlad Zernov</b> — playback-actor, musician,
                                 researcher and trainer from Kharkiv. Co-founder
                                 of “The Ukrainian Playback Theatre in Kraków”.
-                                Certified playback practitioner who has
-                                performed in around 80 performances. Author of
+                                Certified playback practitioner. Author of
                                 the first Ukrainian online knowledge base on
                                 playback theatre; conducted workshops for
-                                Ukrainian communities in Poland (funded by
-                                British Council) and certification courses.
+                                Ukrainian communities in Poland and certification courses.
                                 Works with youth studios and performative
                                 laboratories, researching playback as a tool for
                                 preserving cultural identity. Co-author of the
